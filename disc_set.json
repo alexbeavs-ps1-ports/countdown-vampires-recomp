@@ -1,0 +1,28 @@
+{
+  "disc_count": 2,
+  "verdict": "data-only",
+  "differing_program_fields": [],
+  "warnings": [],
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Countdown Vampires (USA) (Disc 1).cue",
+      "cue_path": "disc/Countdown Vampires (USA) (Disc 1).cue",
+      "serial": "SLUS-00898",
+      "boot_exe": "SLUS_008.98",
+      "entry_pc": "0x800718AC",
+      "track_count": 1,
+      "required_disc_fp": "f677c8f931aa5093858fa1c39fc5a32c9a85afedd5065cf90393097ff4d11a21"
+    },
+    {
+      "index": 2,
+      "cue_name": "Countdown Vampires (USA) (Disc 2).cue",
+      "cue_path": "disc/Countdown Vampires (USA) (Disc 2).cue",
+      "serial": "SLUS-01199",
+      "boot_exe": "SLUS_011.99",
+      "entry_pc": "0x800718AC",
+      "track_count": 1,
+      "required_disc_fp": "11177af9789130483a7519ee8b00a6b17accbe0fc0a4e80c340285f5fac4ad05"
+    }
+  ]
+}

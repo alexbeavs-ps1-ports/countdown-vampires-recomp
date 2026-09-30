@@ -1,0 +1,27 @@
+[project]
+title = "Countdown Vampires"
+region = "USA"
+track = "recompilation"
+status = "source_prepared_unqualified"
+
+[retail_identity]
+disc_count = 2
+serials = ["SLUS-00898", "SLUS-01199"]
+executable_paths = ["SLUS_008.98", "SLUS_011.99"]
+executable_sha256 = "a3f69aa8e9644b510a1b184dac6c0078144e75ebad025339a062b5c90bc5c0a5"
+load_address = "0x80010000"
+entry_point = "0x800718AC"
+
+[bios]
+profile = "SCPH1001"
+sha256 = "71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3"
+
+[framework]
+name = "psxrecomp"
+qualification = "pending T168 and shared canaries"
+template_commit = "77fc84d18cd341ba0c0feb68a63f0904f8c467f0"
+
+[release]
+target_version = "v0.4.0"
+private_only = true
+profile_status = "CI training pending"

@@ -1,0 +1,31 @@
+{
+  "cue_path": "disc/Countdown Vampires (USA) (Disc 1).cue",
+  "cue_name": "Countdown Vampires (USA) (Disc 1).cue",
+  "bin_name": "Countdown Vampires (USA) (Disc 1).bin",
+  "track_count": 1,
+  "data_track_size": 575113392,
+  "data_track_md5": "bfd2bb5e58e152ba4cfac0eb1283ed87",
+  "data_track_sha1": "5ee460a19a8ea606e8d058f216383133615a95d3",
+  "data_track_crc32": "e505fc6d",
+  "boot_exe": "SLUS_008.98",
+  "serial": "SLUS-00898",
+  "serial_exe": "SLUS_008.98",
+  "volume_id": "",
+  "display_name": "Countdown Vampires",
+  "load_address": "0x80010000",
+  "entry_pc": "0x800718AC",
+  "text_size": "0x00088800",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "f677c8f931aa5093858fa1c39fc5a32c9a85afedd5065cf90393097ff4d11a21",
+  "boot_exe_sha256": "a3f69aa8e9644b510a1b184dac6c0078144e75ebad025339a062b5c90bc5c0a5",
+  "seed_count": 992,
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
