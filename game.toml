@@ -4,9 +4,14 @@ name = "Countdown Vampires"
 id = "SLUS-00898"
 players = 1
 exe = "disc/SLUS_008.98"
+disc = "disc/Countdown Vampires (USA) (Disc 1).cue"
 discs = [
     "disc/Countdown Vampires (USA) (Disc 1).cue",
     "disc/Countdown Vampires (USA) (Disc 2).cue",
+]
+disc_serials = [
+    "SLUS-00898",
+    "SLUS-01199",
 ]
 load_address = "0x80010000"
 entry_pc = "0x800718AC"
@@ -18,15 +23,18 @@ out_dir = "disc"
 bin_name = "Countdown Vampires (USA) (Disc 1).bin"
 cue_name = "Countdown Vampires (USA) (Disc 1).cue"
 boot_exe = "SLUS_008.98"
-known_sizes = [575113392]
+known_sizes = [575113392, 586539408]
 known_md5 = [
   "bfd2bb5e58e152ba4cfac0eb1283ed87",
+  "f8b6735eea83f52017ce7cc022455ca0",
 ]
 known_sha1 = [
   "5ee460a19a8ea606e8d058f216383133615a95d3",
+  "23900a207a6a5dd3aa6880ecafd71e00270082ce",
 ]
 known_crc32 = [
   "e505fc6d",
+  "9474b511",
 ]
 
 [recompiler]
