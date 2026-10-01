@@ -58,6 +58,10 @@ aspect_ratio = "4:3"
 default_mode = "digital"
 
 [netplay]
+required_disc_fps = [
+    "f677c8f931aa5093858fa1c39fc5a32c9a85afedd5065cf90393097ff4d11a21",
+    "11177af9789130483a7519ee8b00a6b17accbe0fc0a4e80c340285f5fac4ad05",
+]
 require_cue = true
 required_tracks = 1
 required_disc_fp = "f677c8f931aa5093858fa1c39fc5a32c9a85afedd5065cf90393097ff4d11a21"
